@@ -129,7 +129,7 @@ TextureImporter:
       213: -351755775467522325
     second: Adventurer_Sprite_Sheet_41
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -146,9 +146,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -157,9 +160,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -180,10 +183,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -199,6 +207,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1104,9 +1136,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Adventurer_Sprite_Sheet_25: 3271378642998333652
+      Adventurer_Sprite_Sheet_32: -8784912067427402993
+      Adventurer_Sprite_Sheet_27: 4604595275855149553
+      Adventurer_Sprite_Sheet_35: -4647038095014933136
+      Adventurer_Sprite_Sheet_21: -3345061635257385733
+      Adventurer_Sprite_Sheet_0: 4038703510038480856
+      Adventurer_Sprite_Sheet_11: 4252154314109092034
+      Adventurer_Sprite_Sheet_5: -7719311079141089874
+      Adventurer_Sprite_Sheet_12: 7537831879608827378
+      Adventurer_Sprite_Sheet_3: 7548474969260010341
+      Adventurer_Sprite_Sheet_13: 3265481721196785865
+      Adventurer_Sprite_Sheet_24: 6229909756440658072
+      Adventurer_Sprite_Sheet_41: -351755775467522325
+      Adventurer_Sprite_Sheet_28: 5281906924195440602
+      Adventurer_Sprite_Sheet_40: -5739200292070637530
+      Adventurer_Sprite_Sheet_33: -1152496778619949356
+      Adventurer_Sprite_Sheet_30: -7992133925122682443
+      Adventurer_Sprite_Sheet_18: -3652263502698303348
+      Adventurer_Sprite_Sheet_37: -4118818818443933419
+      Adventurer_Sprite_Sheet_7: -3288730209826056421
+      Adventurer_Sprite_Sheet_39: -8422418915629948341
+      Adventurer_Sprite_Sheet_34: -5682691347469238072
+      Adventurer_Sprite_Sheet_22: -256796545664279541
+      Adventurer_Sprite_Sheet_1: -5996119347906603527
+      Adventurer_Sprite_Sheet_14: 2027336899715204104
+      Adventurer_Sprite_Sheet_9: -5241504547953991461
+      Adventurer_Sprite_Sheet_23: 2243695981684019961
+      Adventurer_Sprite_Sheet_10: 142308819948726436
+      Adventurer_Sprite_Sheet_15: -2336861385183178164
+      Adventurer_Sprite_Sheet_36: -5429931547442263963
+      Adventurer_Sprite_Sheet_17: -8443565408287494555
+      Adventurer_Sprite_Sheet_16: 8212387583966409808
+      Adventurer_Sprite_Sheet_20: -3135504479951528688
+      Adventurer_Sprite_Sheet_6: -1432338564703374100
+      Adventurer_Sprite_Sheet_8: 4936682462875497990
+      Adventurer_Sprite_Sheet_38: 7298531613051746615
+      Adventurer_Sprite_Sheet_29: 1152572309150227757
+      Adventurer_Sprite_Sheet_4: 1440181663366794068
+      Adventurer_Sprite_Sheet_31: 7181682329058757764
+      Adventurer_Sprite_Sheet_2: -1861880045541173478
+      Adventurer_Sprite_Sheet_19: 5559013450366680868
+      Adventurer_Sprite_Sheet_26: 4170703410701267074
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

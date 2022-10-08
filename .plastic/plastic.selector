@@ -1,0 +1,3 @@
+rep "Techtropolis@SarahBrah7@cloud"
+  path "/"
+    smartbranch "/main"
